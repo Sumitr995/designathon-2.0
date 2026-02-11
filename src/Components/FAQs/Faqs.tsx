@@ -1,6 +1,5 @@
-
-
 const Faqs = () => {
+
   return (
     <div className="bg-[#000000] min-h-screen flex bg-[url('/FAQbg.svg')] bg-cover bg-no-repeat z-0">
       <div className='flex flex-1 basis-1/3 border-2 w-full'>
