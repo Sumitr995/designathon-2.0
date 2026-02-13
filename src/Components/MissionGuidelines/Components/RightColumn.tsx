@@ -11,7 +11,11 @@ const RightColumn = () => {
           backgroundSize: "450% 300%",
           backgroundPosition: "100% 0%",
         }}
-      >
+      > 
+          {/* for warm filter and Darkness */}
+        <div className="absolute inset-0 bg-orange-700/30 mix-blend-overlay" />
+        <div className="absolute inset-0 bg-black/20" />
+
         <div className="absolute inset-0 " />
         <div className="relative z-10">
           <div className="flex items-center gap-3 mb-4">
